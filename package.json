@@ -1,14 +1,15 @@
 {
-  "name": "jslibx",
+  "name": "jslib",
   "version": "1.0.0",
   "description": "",
-  "main":"lib/main.js",
+  "main":"libs/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "git:remote": "git remote -v",
     "git:reset": "git remote remove origin",
-    "git:push": "git push origin master && git push github master:main"
+    "git:push": "git push gitee master && git push github master:main"
   },
   "keywords": [],
   "author": "WaveF",
