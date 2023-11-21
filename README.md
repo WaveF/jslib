@@ -1,6 +1,6 @@
 # jslib
 
-[中文版本](https://github.com/WaveF/jslib/blob/main/README.md) | [English version](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https://raw.githubusercontent.com/WaveF/jslib/main/README.md)
+🌐 [中文版本](https://github.com/WaveF/jslib/blob/main/README.md) | [English version](https://translate.google.com/translate?hl=en&sl=auto&tl=en&u=https://github.com/WaveF/jslib)
 
 ## 介绍
 此项目旨在为 JS Library 的开发提供一个基础模板，使其能够快速开始开发并基于 [ViteJS](https://vitejs.dev/) 编译出不同格式的库文件，以便在各种 JS 环境中使用和测试。
