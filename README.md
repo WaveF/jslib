@@ -10,10 +10,10 @@
 2. 编辑 `main.js`，并按需要修改 `index.html` 以便于调试时预览效果
 3. 将 `main.js` 编译到 `dist` 目录下
 
-## 用作模板
+## 套用模板
 `git clone https://gitee.com/wavef/jslib.git YOUR_LIBRARY_NAME`
 
-## 远程仓库
+## 初始操作
 
 - ### 移除默认的远程仓库
   `git remote remove origin`
@@ -25,7 +25,7 @@
 - ### 设置默认的远程仓库
   `git push -u gitee master`
 
-- ### 初次提交到远程仓库，以后可以去掉 --force 参数
+- ### 初次提交到远程仓库（github的主分支名默认是main），以后可以去掉 --force 参数
   `git push --force gitee master && git push --force github master:main`
 
 
