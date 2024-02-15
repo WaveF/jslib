@@ -2,21 +2,22 @@
   "name": "jslib",
   "version": "1.0.0",
   "description": "",
-  "main":"libs/main.js",
+  "main": "libs/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    
+    "watch-build": "nodemon --watch . --exec 'pnpm build'",
     "git:info": "git remote -v",
     "git:reset": "git remote remove origin",
     "git:init": "git remote add gitee https://gitee.com/YOUR_NAME/REPO_URL.git && git remote add github https://github.com/YOUR_NAME/REPO_URL.git && git push -u gitee master",
-    "git:push": "git push gitee master && git push github master:main"
+    "git:push": "git push --force gitee master && git push --force github master:main"
   },
   "keywords": [],
   "author": "WaveF",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.0.3",
     "vite": "^4.4.11"
   }
 }
