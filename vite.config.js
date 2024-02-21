@@ -12,5 +12,8 @@ module.exports = defineConfig({
       fileName: MODULE_NAME,
       // fileName: (format) => `${MODULE_NAME}.${format}.js`
     }
+  },
+  define: {
+    'process.env': process.env
   }
 })
