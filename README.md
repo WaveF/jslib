@@ -28,7 +28,6 @@
 - ### 初次提交到远程仓库（github的主分支名默认是main），以后可以去掉 --force 参数
   `git push --force gitee master && git push --force github master:main`
 
-
 ## 安装依赖
 `pnpm install`
 
@@ -37,3 +36,24 @@
 
 ## 编译打包
 `pnpm build`
+
+## 使用脚手架
+```bash
+# 全局安装jslib脚手架
+npm i -g vite-jslib-cli
+
+# 创建项目
+jslib <项目名>
+
+# 进入项目目录
+cd <项目名>
+
+# 安装依赖
+pnpm install
+
+# 开发调试
+pnpm dev
+
+# 编译打包
+pnpm build
+```

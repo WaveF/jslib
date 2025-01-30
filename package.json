@@ -1,13 +1,13 @@
 {
   "name": "jslib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "libs/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "watch-build": "nodemon --watch . --exec 'pnpm build'",
+    "watch-build": "nodemon --watch ./libs/*.js --exec 'pnpm build'",
     "git:info": "git remote -v",
     "git:reset": "git remote remove origin",
     "git:init": "git remote add gitee https://gitee.com/YOUR_NAME/REPO_URL.git && git remote add github https://github.com/YOUR_NAME/REPO_URL.git && git push -u gitee master",
